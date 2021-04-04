@@ -3,5 +3,11 @@
     font-weight: 700;
     font-size: 2rem;
 
+    margin-bottom: 5px;
+
     color: #fff;
+}
+
+.main-title.-black {
+    color: #000;
 }
