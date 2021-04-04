@@ -1,0 +1,10 @@
+.main-link {
+    text-decoration: none;
+    color: #444444;
+    font-weight: 600;
+}
+
+.main-link.current {
+    color: #00126B;
+    font-weight: 700;
+}
