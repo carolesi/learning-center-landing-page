@@ -1,0 +1,11 @@
+.round-btn {
+    box-sizing: content-box;
+
+    width: 7px;
+    height: 7px; 
+    border-radius: 100%;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+
+    cursor: pointer;
+}
+
