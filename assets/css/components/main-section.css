@@ -1,11 +1,12 @@
-.main-section {
+.main-section { 
     height: 570px;
-    
-    background-image: url(../../img/banner-photo.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 25%;
+
+    background-color: #fff;
+
+    padding-top: 45px;
+    padding-bottom: 45px;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
