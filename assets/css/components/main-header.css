@@ -16,6 +16,10 @@
     width: 100%;
 }
 
+.main-header .info {
+    font-size: 1rem;
+}
+
 .main-header .logos {
     display: flex;
     justify-content: flex-end;

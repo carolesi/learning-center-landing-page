@@ -1,0 +1,11 @@
+.main-section {
+    height: 570px;
+    
+    background-image: url(../../img/banner-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 25%;
+
+    display: flex;
+    align-items: center;
+}
