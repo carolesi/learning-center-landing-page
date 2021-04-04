@@ -1,0 +1,12 @@
+.main-box {
+    width: 500px;
+    height: 140px;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    transform: translateX(180px)
+}
