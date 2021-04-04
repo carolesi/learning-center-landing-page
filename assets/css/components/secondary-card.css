@@ -1,0 +1,56 @@
+.secondary-card {
+    transform: scale(0.8);
+}
+
+.secondary-card:hover {
+    cursor: pointer;
+}
+
+.secondary-card figcaption {    
+    line-height: 50px;
+    width: 100%;
+
+    font-size: 1.5rem;
+    font-family: 'Lora';
+    font-weight: 400;
+    font-style: normal;
+
+    color: #B1B8DC;
+    background-color: #000;
+
+    text-align: center;
+}
+
+.secondary-card img {
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.secondary-card .container {
+    position: relative;
+}
+
+.secondary-card .overlay {
+    position: absolute;     /* Posiciona relativo ao container-pai */
+
+    width: 100%;    /* Ocupa 100% do container-pai */
+    height: 100%;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    opacity: 0;
+
+    transition: 0.5s ease;
+
+    background-color: rgba(37, 37, 37, 0.7);
+
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.secondary-card .container:hover .overlay {
+    opacity: 1;
+}
